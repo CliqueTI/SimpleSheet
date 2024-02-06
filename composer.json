@@ -1,0 +1,25 @@
+{
+  "name": "cliqueti/simple-sheet",
+  "description": "PHP Library to read and write spreadsheet files (CSV, XLSX and ODS) | Biblioteca PHP para ler e escrever arquivos de planilhas (CSV, XLSX e ODS)",
+  "minimum-stability": "stable",
+  "keywords": [
+    "Excel","Open Office",
+    "CSV","XLS","XLSX","ODS"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paulo",
+      "email": "paulo@cliqueti.com.br"
+    }
+  ],
+  "require": {
+    "php": "8.*",
+    "openspout/openspout": "v4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CliqueTI\\SimpleSheet\\": "source"
+    }
+  }
+}
